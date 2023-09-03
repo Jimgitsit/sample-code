@@ -1,6 +1,6 @@
 /**
  * @module rules
- * @author Jim McGowen <jim@solardrive.io>
+ * @author Jim McGowen
  */
 'use strict'
 

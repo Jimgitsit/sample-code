@@ -1,6 +1,6 @@
 /**
  * @module api
- * @author Jim McGowen <jim@solardrive.io>
+ * @author Jim McGowen
  */
 const http = require('http')
 const StringDecoder = require('string_decoder').StringDecoder

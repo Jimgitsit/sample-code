@@ -1,13 +1,16 @@
+/**
+ * @author Jim McGowen
+ * 
+ * An implementation of an pre-trained OpenAI chatbot.
+ */
 import { Configuration, OpenAIApi } from 'openai';
 import 'dotenv/config';
 import 'regenerator-runtime/runtime'
 
 const history = [];
-const initPrompt = `...`;
+const initPrompt = `[redacted]`;
 
-const configuration = new Configuration({
-  apiKey: process.env.OPENAI_API_KEY
-});
+const configuration = new Configuration({});
 
 delete configuration.baseOptions.headers['User-Agent'];
 

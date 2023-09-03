@@ -1,7 +1,6 @@
 /**
  * @module stores/insights
- * @author Jim McGowen <jim@solardrive.io>
- * @copyright © 2022 Solardrive, All rights reserved
+ * @author Jim McGowen
  */
 'use strict'
 
