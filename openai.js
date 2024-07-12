@@ -58,8 +58,7 @@ const addOutputLine = (text, outputDiv) => {
 }
 
 addEventListener('load', function() {
-  // TODO: Doesn't work on load. Find workaround.
-  //playSound('loading-screen');
+  playSound('loading-screen');
 
   input.hidden = true;
   let flash = document.createElement('div');
@@ -131,7 +130,6 @@ input.addEventListener('keydown', async function(event) {
         if (line.length > 0) {
           // Do flash animation
           input.hidden = true;
-          // <div className="flash-container"><span className="flash"></span></div>
           flash = document.createElement('div');
           flash.classList.add('flash-container');
           flash.innerHTML = '<span class="flash">'
@@ -145,7 +143,6 @@ input.addEventListener('keydown', async function(event) {
           }
 
           // Add output
-          // <div className="output generated-output blurry-text"><span className="text">asdfasdf</span><span className="letter-flash">E</span></div>
           let output = document.createElement('div');
           output.classList.add('output');
           output.classList.add('generated-output');
